@@ -1,12 +1,14 @@
-import java.util.Hashtable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.function.Function;
 
-public class Main {
+public class Main<t> {
+    public void show() {
+        System.out.println("this is the show method");
+    }
+
     public static void main(String[] arg) {
-        Hashtable<Integer, Integer> hashtable = new Hashtable();
-        hashtable.put(10, 23);
-        hashtable.put(10, 50);
-        hashtable.put(20, 60);
-        hashtable.put(10, 5555);
-        System.out.println(hashtable);
+
     }
 }
